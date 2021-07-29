@@ -1,0 +1,4 @@
+历史数据分析分为3步骤：
+1、get_baseinfo，获取期货基础信息和可交割券转换因子等信息，生成code_info.h5；
+2、get_quote：根据生成的基础信息，获取期货存续期间的行情数据；
+3、calculation:根据基础信息和行情，进行基差、IRR、BNOC、理论价格等指标的计算，生成quota和ctd_table。
